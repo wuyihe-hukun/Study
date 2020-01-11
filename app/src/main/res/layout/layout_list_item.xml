@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:padding="20dp"
+    android:orientation="horizontal">
+    <ImageView
+        android:id="@+id/iv_1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        android:background="#000000"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/it_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hhhhh"
+            android:textSize="20sp"
+            android:textColor="@color/colorAccent"
+            android:paddingLeft="10dp"/>
+        <TextView
+            android:id="@+id/it_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2017"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:textColor="@color/colorblack"
+            android:paddingLeft="10dp"/>
+        <TextView
+            android:id="@+id/it_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2019"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:textColor="@color/colorlightgreen"
+            android:paddingLeft="10dp"/>
+    </LinearLayout>
+
+</LinearLayout>

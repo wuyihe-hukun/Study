@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="hukun.example.studyonline">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Data.SharedActivity"></activity>
+        <activity android:name=".Data.DataActivity" />
+        <activity android:name=".recycleview.DifferentViewActivity" />
+        <activity android:name=".recycleview.PuBuLiuActivity" />
+        <activity android:name=".recycleview.GridRecyclerViewActivity" />
+        <activity android:name=".recycleview.HorRecyclerViewActivity" />
+        <activity android:name=".recycleview.LinearRecycleViewActivity" />
+        <activity android:name=".recycleview.LinearRecycleViewActivity2" />
+        <activity android:name=".recycleview.RecycleViewActivity" />
+        <activity android:name=".ImagViewActivity" />
+        <activity android:name=".CheckBoxActivity" />
+        <activity android:name=".RadioActivity" />
+        <activity android:name=".EditTextActivity" />
+        <activity android:name=".ButtonActivity" />
+        <activity android:name=".TextViewActivity" />
+        <activity android:name=".listview.ListViewActivity" />
+        <activity android:name=".Gridview.GridViewActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".recycleview.RecycleViewActivity">
+    <Button
+        android:id="@+id/rv_linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="列表视图"/>
+    <Button
+        android:id="@+id/rv_hor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="水平滚动"/>
+    <Button
+        android:id="@+id/rv_grid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="网格"/>
+    <Button
+        android:id="@+id/rv_pubu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="瀑布流"/>
+    <Button
+        android:id="@+id/rv_"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="网格"/>
+
+</LinearLayout>

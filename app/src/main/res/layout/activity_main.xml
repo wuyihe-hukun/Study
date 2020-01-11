@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp">
+        <Button
+            android:id="@+id/btn_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="textview"/>
+        <Button
+            android:id="@+id/btn_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="button"/>
+        <Button
+            android:id="@+id/edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="edittext"/>
+        <Button
+            android:id="@+id/radiobutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="radioButton"/>
+        <Button
+            android:id="@+id/checkbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="checkbox"/>
+        <Button
+            android:id="@+id/imageview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="imageview"/>
+        <Button
+            android:id="@+id/list_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="listview"/>
+        <Button
+            android:id="@+id/grid_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="gridview"/>
+        <Button
+            android:id="@+id/rv_linear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Recycle_Linear"/>
+        <Button
+            android:id="@+id/rv_data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="数据存储"/>
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>
